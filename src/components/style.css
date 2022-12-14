@@ -36,6 +36,7 @@ html {
 }
 
 input {
+  
   /* display: block; */
   min-width: 32rem;
   height: 3.4rem;

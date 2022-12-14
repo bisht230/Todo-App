@@ -10,6 +10,7 @@ const getLocalData = () =>{
         return []
     }
 }
+
 const TodoApp = () => {
     const [inputData , setInputData] = useState("")
     const [items , setItems] = useState(getLocalData())

@@ -12,6 +12,7 @@ const getLocalData = () =>{
 }
 
 const TodoApp = () => {
+  
     const [inputData , setInputData] = useState("")
     const [items , setItems] = useState(getLocalData())
     const[isEditItem , setIsEditItem] = useState("")
